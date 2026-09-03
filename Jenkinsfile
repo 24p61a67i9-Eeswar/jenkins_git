@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'python main.py'
+                bat '"C:\\Users\\NALANDA\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" main.py'
             }
         }
 
